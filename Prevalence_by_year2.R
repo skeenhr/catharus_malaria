@@ -4,7 +4,7 @@ library(tidyr)
 library(cowplot)
 library()
 
-setwd("/Users/shannonhackett/Dropbox/Catharus")
+setwd("/Users/FILEPATH")
 getwd() 
 
 ##Import spreadsheet
@@ -206,6 +206,8 @@ All_Path_by_Year
 
 
 ###Spring and fall together 
+
+###this doesn't work -- need to fix
 head(Prevalence)
 Prev2 <- Prevalence[,c(1,2,6:9)]
 head(Prev2)
